@@ -4,6 +4,16 @@ Esta aplicación de conversión de monedas es una herramienta sencilla y eficien
 
 ## Herramientas Utilizadas
 
-ExchangeRate-API: Esta API se utiliza para obtener las tasas de conversión actuales entre las distintas monedas. La API proporciona datos en formato JSON que son fáciles de manejar y procesar dentro de la aplicación.
+**ExchangeRate-API**: Esta API se utiliza para obtener las tasas de conversión actuales entre las distintas monedas. La API proporciona datos en formato JSON que son fáciles de manejar y procesar dentro de la aplicación.
 
-Gson: Gson es una biblioteca de Java para la serialización y deserialización de objetos Java a y desde JSON. En esta aplicación, Gson se utiliza para convertir la respuesta JSON de la API de ExchangeRate-API en objetos Java utilizables.
+**Gson**: Gson es una biblioteca de Java para la serialización y deserialización de objetos Java a y desde JSON. En esta aplicación, Gson se utiliza para convertir la respuesta JSON de la API de ExchangeRate-API en objetos Java utilizables.
+
+#### Ejemplo de Uso
+1. **Elija la moneda a convertir** (1 para USD, 2 para EUR, 3 para ARS).
+2. **Elija la moneda requerida** (1 para USD, 2 para EUR, 3 para ARS).
+3. **Ingrese la cantidad a convertir**.
+4. La aplicación mostrará la **tasa de conversión** y el **resultado de la conversión**.
+5. Decida si desea realizar otra conversión o finalizar la sesión.
+
+#### Ejemplo de Output
+
