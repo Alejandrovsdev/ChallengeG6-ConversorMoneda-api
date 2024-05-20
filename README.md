@@ -17,3 +17,4 @@ Esta aplicación de conversión de monedas es una herramienta sencilla y eficien
 
 #### Ejemplo de Output
 
+![Ejemplo de output](outputExample.png)
